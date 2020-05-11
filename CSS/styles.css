@@ -1,0 +1,115 @@
+h1 {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+p {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   background-color: white;
+   align-items: center;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    background-image: url('https://lh3.googleusercontent.com/proxy/_R0uFpR0QFKZes1zDRQkrvjqMa0rKOcVfHdFjuonxbmiRL5j3GUp_NX_mrRVqJ2Wf-WNc4rmTOXGVYnuQVz4iQROzjDusrtf1V4x6NQbkkdAE_8XJS5NAvYZkjgODR_VvBAxdTwSOJtX_ILtLV0k8C7QeqYtkFN2GdZ4cSiwPh5X9cNOJvgHprji50DC6ckE-gHIvEmly-7SwWSyfY6sEDd4McV8E_L1WHDpNKRlWe9BQRXJDSMwEjSixnDP54U0vvHcSWBipFJRpDbePzABRG4dDBf1iPgcGn2EgOqJKCq98l7-rMK2uoiCwZXXDBpPkrli');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.descriptionItem {
+    margin-left: 100px;
+}
+
+.appointment {
+    background-color:#00B052;
+    color: white;
+    width: 150px;
+    height: 30px;
+}
+
+.featuresHeader-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.featuresContainer {
+    display: flex;
+    background-color:#F7F7FF;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 25px;
+}
+.doctorDescription {
+    background-image: url('https://i.pinimg.com/originals/92/af/83/92af838d576c73138a52b5ad29412347.jpg');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around
+}
+.doctorDescriptionItem {
+    margin-left: 200px;
+}
+.card {
+    width: 22rem;
+    margin: 10px;
+}
+.card-body {
+    text-align: center;
+}
+.card-text {
+    margin-top: 20px;
+    font-size: 12px
+}
+.footerDescription {
+    display: flex;
+    background-color:#444444;
+    flex-direction: row;
+}
+.footerDescriptionItem {
+    margin-left: 100px;
+    color: white;
+    width: 350px;
+    margin-top: 25px;
+    font-size: 14px;
+}
+.header {   
+    display: flex;
+    height: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+.headerItem {
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+}
+.headerItem-Images {
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+}
+.features-Images {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 20px;
+}
